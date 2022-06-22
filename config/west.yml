@@ -3,9 +3,13 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
+  # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: zmkfirmware-infused-kim
+      revision: my-changes/oled-ext-pwr
       import: app/west.yml
   self:
     path: config
