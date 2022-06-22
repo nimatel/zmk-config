@@ -9,7 +9,7 @@ manifest:
     #   remote: zmkfirmware
     #   revision: main
     #   import: app/west.yml
-    ame: zmk-zephyr
+    - name: zmk-zephyr
       remote: infused-kim
       revision: v2.5.0+zmk-fixes+kim-fixes
       clone-depth: 1
